@@ -1,0 +1,30 @@
+{
+  "name": "learning-data-structures",
+  "version": "0.1.0",
+  "description": "자료구조를 학습하기 위한 저장소입니다.",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha --recursive './src/**/*.test.js' -s 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wavejs/Learning-Data-Structures.git"
+  },
+  "author": "Wavejs Team",
+  "contributors": [
+    "foundy <foundy@foundy.io>",
+    "dalgos <dalgos@dalgos.com"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wavejs/Learning-Data-Structures/issues"
+  },
+  "homepage": "https://github.com/wavejs/Learning-Data-Structures#readme"
+}
